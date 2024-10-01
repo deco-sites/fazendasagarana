@@ -1,0 +1,34 @@
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [
+      {
+        "label": "Home",
+        "url": "/"
+      },
+      {
+        "label": "Sobre ",
+        "url": "/about-us"
+      },
+      {
+        "label": "Atividades",
+        "url": "/tours"
+      },
+      {
+        "label": "Blog",
+        "url": "/blog"
+      }
+    ],
+    "buttons": [
+      {
+        "id": "contact",
+        "href": "/contact",
+        "text": "Contato"
+      }
+    ]
+  },
+  "logo": {
+    "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/sagarana/d884319c-c7fc-4a36-aa86-2982837f4a90/IMG-20181007-WA0053.jpg"
+  },
+  "farmName": "<p>Sagarana</p>"
+}

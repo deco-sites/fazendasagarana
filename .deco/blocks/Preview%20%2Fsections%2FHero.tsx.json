@@ -1,0 +1,9 @@
+{
+  "__resolveType": "site/sections/Hero.tsx",
+  "cta": [],
+  "title": "<p>Click here to tweak this text however you want.</p>",
+  "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/sagarana/0fdadf37-5ef2-48eb-adf2-57860e89066d/IMG-20230728-WA0008.jpg",
+  "placement": "left",
+  "backgroundImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/sagarana/0fdadf37-5ef2-48eb-adf2-57860e89066d/IMG-20230728-WA0008.jpg",
+  "smallText": "<p><span style=\"font-size: 14pt\">Bem vindo a Sagarana</span></p><p><span style=\"font-size: 14pt\">Descubra o melhor da vida do campo</span></p>"
+}
