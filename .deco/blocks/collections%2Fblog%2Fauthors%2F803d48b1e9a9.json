@@ -1,0 +1,11 @@
+{
+  "name": "collections/blog/authors/803d48b1e9a9",
+  "__resolveType": "blog/loaders/Author.ts",
+  "author": {
+    "name": "Damião",
+    "email": "damiao.sagarana@gmail.com",
+    "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/fazendasagarana/a0a5b0fe-7f00-423b-86c1-0ca8d1c4c216/2024-09-28-21_38_14-(1)-Enfardadeira-pneumatica-para-feno-de-tifton---YouTube.png",
+    "jobTitle": "Agrônomo",
+    "company": "Fazenda Sagarana"
+  }
+}
