@@ -60,15 +60,16 @@ export default function Header({
     ],
   },
   announcement,
+  primaryColor = "#10B981",
+  secondaryColor = "#065F46",
 }: Nav) {
   return (
-    <header className="bg-green-50 border-b-4 border-green-600">
+    <header className="bg-green-50 border-b-4" style={{ borderColor: secondaryColor }}>
       {announcement && (
         <div
           className="bg-yellow-100 text-yellow-800 px-4 py-2 text-sm text-center"
           dangerouslySetInnerHTML={{ __html: announcement }}
-        >
-        </div>
+        />
       )}
       <nav className="container mx-auto px-4 py-6">
         <div className="flex items-center justify-between">
@@ -81,7 +82,8 @@ export default function Header({
               className="rounded-full"
             />
             <span
-              className="ml-3 text-3xl font-bold text-green-800"
+              className="ml-3 text-3xl font-bold"
+              style={{ color: secondaryColor }}
               dangerouslySetInnerHTML={{ __html: farmName }}
             />
           </a>
@@ -91,7 +93,8 @@ export default function Header({
               <a
                 key={link.label}
                 href={link.url}
-                className="text-green-800 hover:text-green-600 transition duration-300 border-b-2 border-green-600"
+                className="hover:text-opacity-80 transition duration-300 border-b-2"
+                style={{ color: secondaryColor, borderColor: primaryColor }}
               >
                 {link.label}
               </a>
@@ -102,9 +105,14 @@ export default function Header({
                 id={item?.id}
                 href={item?.href}
                 className={`px-6 py-2 rounded-full text-white transition duration-300 ${item.outline
-                    ? "border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white"
-                    : "bg-green-600 hover:bg-green-700"
+                    ? "border-2 hover:text-white"
+                    : "text-white hover:opacity-80"
                   }`}
+                style={{
+                  backgroundColor: item.outline ? "transparent" : primaryColor,
+                  borderColor: primaryColor,
+                  color: item.outline ? primaryColor : "white",
+                }}
               >
                 {item?.text}
               </a>
@@ -112,7 +120,7 @@ export default function Header({
           </div>
 
           <div className="md:hidden">
-            <button className="text-green-800 hover:text-green-600">
+            <button style={{ color: secondaryColor }}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
