@@ -1,0 +1,9 @@
+{
+  "__resolveType": "site/apps/deco/records.ts",
+  "url": "libsql://fazendasagarana-decocx.turso.io",
+  "authToken": {
+    "__resolveType": "website/loaders/secret.ts",
+    "name": "DATABASE_AUTH_TOKEN",
+    "encrypted": "5fac1334ae36c3c3c2f070461a3367b1a3ba2d189acc343424e10ab7ed213c92392871fb9266ce0d78e8b55705593aaa58da85184b1ebdba174bab4b0104904d5e0288414232ff6b1e796bce6e4a216599133320798383164c1af486211aa012a2b5b58ecd5cf92a2073bfd67bc66b4d3d22c98958c0274acf9e17829b22c84f44a81d03b004eff43db60747bc6ceec602d25f0811652c4854c30730224cec802f09b8b917cf65787d0a5bae70d86f784a3fa83e46164da550eb9cc96f787f70e0862a653f9a12b76cca8443be074999311acd02c5f27cc9a8d911a6435ab01c"
+  }
+}
