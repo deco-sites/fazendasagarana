@@ -1,0 +1,20 @@
+{
+  "__resolveType": "site/sections/Home.tsx",
+  "activities": [
+    {
+      "title": "testeact",
+      "link": "testact"
+    },
+    {
+      "title": "weae2ewadd",
+      "link": "dwa2"
+    }
+  ],
+  "blogPosts": [
+    {},
+    {}
+  ],
+  "heroImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/fazendasagarana/d3e81f12-e3df-4125-9737-aba16b5bdcf7/IMG-20230728-WA0008.jpg",
+  "farmName": "<p>Sagarana</p>",
+  "heroText": "<p><span style=\"font-size: 12pt\">Descubra o melhor </span></p><p><span style=\"font-size: 12pt\">da vida no campo</span></p>"
+}

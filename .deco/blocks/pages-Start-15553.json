@@ -5,29 +5,10 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "Header"
+        "__resolveType": "site/sections/Home.tsx",
+        "farmName": "<p>Sagarana</p>",
+        "heroImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/fazendasagarana/d3e81f12-e3df-4125-9737-aba16b5bdcf7/IMG-20230728-WA0008.jpg"
       }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Hero"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Activities.tsx"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/BlogCarrousel.tsx"
-      }
-    },
-    {
-      "__resolveType": "Footer"
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
