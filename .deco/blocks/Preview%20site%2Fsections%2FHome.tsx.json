@@ -1,0 +1,28 @@
+{
+  "__resolveType": "site/sections/Home.tsx",
+  "activities": [
+    {}
+  ],
+  "farmName": "<p>Sagarana</p>",
+  "activitiesSectionTitle": "<p>Teste de titulo</p>",
+  "blogSectionTitle": "<p>Blog</p>",
+  "heroTitle": "<p>desc</p>",
+  "blogTitle": "<p>safs</p>",
+  "blogs": [
+    {
+      "__resolveType": "collections/blog/posts/1a51e8a3cadd"
+    },
+    {
+      "__resolveType": "collections/blog/posts/cce1254a7bad"
+    }
+  ],
+  "farmActivities": [],
+  "blogPosts": [
+    {
+      "__resolveType": "collections/blog/posts/1a51e8a3cadd"
+    },
+    {
+      "__resolveType": "collections/blog/posts/cce1254a7bad"
+    }
+  ]
+}

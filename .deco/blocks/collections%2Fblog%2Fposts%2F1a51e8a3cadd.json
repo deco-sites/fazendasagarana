@@ -1,0 +1,29 @@
+{
+  "name": "collections/blog/posts/1a51e8a3cadd",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Damião",
+        "email": "damiao.sagarana@gmail.com",
+        "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/fazendasagarana/a0a5b0fe-7f00-423b-86c1-0ca8d1c4c216/2024-09-28-21_38_14-(1)-Enfardadeira-pneumatica-para-feno-de-tifton---YouTube.png",
+        "jobTitle": "Agrônomo",
+        "company": "Fazenda Sagarana"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Tifton",
+        "slug": "tifton"
+      }
+    ],
+    "extraProps": [],
+    "title": "Irrigação",
+    "excerpt": "Titulo sobre irrigação",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/fazendasagarana/eece903c-f318-4f3c-8db0-13097729c541/IMG-20200823-WA0013---Copy.jpg",
+    "date": "2024-10-05",
+    "slug": "irrigacao-tifton",
+    "content": "<p>Longo texto sobre irrigação</p>",
+    "readTime": 15
+  }
+}

@@ -8,7 +8,15 @@
         "__resolveType": "site/sections/Home.tsx",
         "farmName": "<p>Sagarana</p>",
         "heroImage": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/fazendasagarana/d3e81f12-e3df-4125-9737-aba16b5bdcf7/IMG-20230728-WA0008.jpg",
-        "heroText": "<p>Descubra o melhor</p><p>da vida no campo</p>"
+        "heroText": "<p>Descubra o melhor</p><p>da vida no campo</p>",
+        "heroTitle": "<p>Descubra o melhor </p><p>da vida no campo</p>",
+        "activitiesTitle": "<p>Principais atividades</p>",
+        "blogTitle": "<p>Blog</p>",
+        "blogPosts": {
+          "__resolveType": "blog/loaders/BlogpostList.ts",
+          "sortBy": "date_desc",
+          "count": 5
+        }
       }
     }
   ],

@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/abd897c296b1",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Tifton",
+    "slug": "tifton"
+  }
+}

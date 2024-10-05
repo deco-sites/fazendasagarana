@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/62adfbb4de50",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Manejo animal",
+    "slug": "manejoanimal"
+  }
+}
