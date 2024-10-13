@@ -30,14 +30,6 @@ export interface Nav {
    * @description Add a custom announcement to the top of the header
    */
   announcement?: HTMLWidget;
-  /**
-   * @format color-input
-   */
-  primaryColor?: string;
-  /**
-   * @format color-input
-   */
-  secondaryColor?: string;
 }
 
 export default function Header({
@@ -60,14 +52,12 @@ export default function Header({
     ],
   },
   announcement,
-  primaryColor = "#10B981",
-  secondaryColor = "#065F46",
 }: Nav) {
   return (
-    <header className="bg-green-50 border-b-4" style={{ borderColor: secondaryColor }}>
+    <header className="bg-base-100 border-b-4 border-primary">
       {announcement && (
         <div
-          className="bg-yellow-100 text-yellow-800 px-4 py-2 text-sm text-center"
+           className="bg-accent text-accent-content px-4 py-2 text-sm text-center"
           dangerouslySetInnerHTML={{ __html: announcement }}
         />
       )}
@@ -82,8 +72,7 @@ export default function Header({
               className="rounded-full"
             />
             <span
-              className="ml-3 text-3xl font-bold"
-              style={{ color: secondaryColor }}
+              className="ml-3 text-3xl font-bold text-primary"
               dangerouslySetInnerHTML={{ __html: farmName }}
             />
           </a>
@@ -93,8 +82,7 @@ export default function Header({
               <a
                 key={link.label}
                 href={link.url}
-                className="hover:text-opacity-80 transition duration-300 border-b-2"
-                style={{ color: secondaryColor, borderColor: primaryColor }}
+                className="hover:text-opacity-80 transition duration-300 border-b-2 text-primary border-primary"
               >
                 {link.label}
               </a>
@@ -104,15 +92,10 @@ export default function Header({
                 key={item?.id}
                 id={item?.id}
                 href={item?.href}
-                className={`px-6 py-2 rounded-full text-white transition duration-300 ${item.outline
-                    ? "border-2 hover:text-white"
-                    : "text-white hover:opacity-80"
+                className={`btn btn-primary ${item.outline
+                                  ? "btn-outline"
+                                  : ""
                   }`}
-                style={{
-                  backgroundColor: item.outline ? "transparent" : primaryColor,
-                  borderColor: primaryColor,
-                  color: item.outline ? primaryColor : "white",
-                }}
               >
                 {item?.text}
               </a>
