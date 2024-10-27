@@ -1,13 +1,16 @@
 {
   "__resolveType": "site/sections/Home.tsx",
   "activities": [
-    {}
+    {
+      "name": "Pesca esportiva",
+      "link": "pesca-esportiva"
+    }
   ],
   "farmName": "<p>Sagarana</p>",
   "activitiesSectionTitle": "<p>Teste de titulo</p>",
   "blogSectionTitle": "<p>Blog</p>",
-  "heroTitle": "<p>desc</p>",
-  "blogTitle": "<p>safs</p>",
+  "heroTitle": "<p>Descubra o melhor </p><p>da vida no campo</p>",
+  "blogTitle": "<p>Blog</p>",
   "blogs": [
     {
       "__resolveType": "collections/blog/posts/1a51e8a3cadd"
