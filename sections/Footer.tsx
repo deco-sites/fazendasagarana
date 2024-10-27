@@ -89,7 +89,7 @@ export default function Footer({
   ],
 }: Props) {
   return (
-    <div class="w-full text-sm bg-green-100">
+    <div class="w-full text-sm bg-base-100">
       <div class="flex flex-col gap-10 px-4 lg:px-8 py-8">
         <div class="flex flex-col gap-6 justify-between lg:flex-row">
           <div>
@@ -116,7 +116,7 @@ export default function Footer({
             ))}
           </div>
         </div>
-        <div class="border-green-300 border-t flex flex-col gap-4 items-center justify-between lg:flex-row lg:items-center py-4">
+        <div class="border-base-300 border-t flex flex-col gap-4 items-center justify-between lg:flex-row lg:items-center py-4">
           <div class="flex flex-col gap-4 items-center lg:flex-row lg:gap-6">
             <a
               href={madeWith?.href}

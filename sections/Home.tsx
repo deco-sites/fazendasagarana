@@ -37,7 +37,7 @@ export default function FarmLayout({
   blogPosts = [],
 }: Props) {
   return (
-    <div class="container mx-auto px-4 py-8 bg-green-50">
+    <div class="w-full bg-green-50">
       {/* Hero Section */}
       <section class="relative mb-12">
         <img 
@@ -54,7 +54,7 @@ export default function FarmLayout({
       </section>
 
       {/* Farm Activities Section */}
-      <section class="mb-12">
+      <section class="mb-12 px-4">
         <h2 
           class="text-3xl font-bold text-green-800 mb-6"
           dangerouslySetInnerHTML={{ __html: activitiesTitle }}
@@ -73,7 +73,7 @@ export default function FarmLayout({
       </section>
 
       {/* Blog Section */}
-      <section>
+      <section class="px-4">
         <h2 
           class="text-3xl font-bold text-green-800 mb-6"
           dangerouslySetInnerHTML={{ __html: blogTitle }}

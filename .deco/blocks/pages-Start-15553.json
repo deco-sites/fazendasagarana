@@ -18,11 +18,7 @@
         "heroTitle": "<p>Descubra o melhor </p><p>da vida no campo</p>",
         "activitiesTitle": "<p>Principais atividades</p>",
         "blogTitle": "<p>Blog</p>",
-        "blogPosts": {
-          "__resolveType": "blog/loaders/BlogpostList.ts",
-          "sortBy": "date_desc",
-          "count": 5
-        }
+        "blogPosts": []
       }
     },
     {
