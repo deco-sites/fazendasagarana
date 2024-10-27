@@ -43,7 +43,7 @@ export default function FarmLayout({
         <img 
           src={heroImage} 
           alt="Farm Hero" 
-          class="w-full h-96 object-cover rounded-lg shadow-lg"
+          class="w-full h-[32rem] object-cover rounded-lg shadow-lg"
         />
         <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 rounded-lg">
           <h1 
