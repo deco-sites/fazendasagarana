@@ -5,13 +5,13 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "Header"
+        "__resolveType": "home"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "home"
+        "__resolveType": "Header"
       }
     },
     {
