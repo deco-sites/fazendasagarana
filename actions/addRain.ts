@@ -7,7 +7,7 @@ interface Props {
 }
 
 export default async function action({ month, year, value }: Props, _req: Request, {invoke}: AppContext) {
-  const drizzle = await invoke.records.loaders.drizzless();
+  const drizzle = await invoke.records.loaders.drizzle();
 
   return name
 }
